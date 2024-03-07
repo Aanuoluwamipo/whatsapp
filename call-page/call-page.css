@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffffa5;
+}
+body{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.section-1{
+    background-image: url(whatsapp-background.jpg);
+    /* line-height: 35px; */
+    height: 95vh;
+    background-size: cover;
+    padding-top: 5vh;
+    overflow: hidden;
+}
+.div-1{
+    height: 55vh;
+}
+.div-1 img{
+    border-radius: 100%;
+    width: 20%;
+    margin: 15px 0;
+}
+p{
+    font-size: 12px;
+    color: gray;
+}
+h4{
+    font-size: 15px;
+}
+.p2{
+    margin-top: 15px;
+    font-size: 13px;
+    color: #fff;
+}
+.div-2{
+    height: 15vh;
+    background-color: #202c33;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

@@ -30,33 +30,34 @@ header .nav-1 .div-2{
 header img{
     width: 20%;
 }
-header .nav-2{
+.nav-item-img{
+    width: 8%;
+}
+#navBar{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
 }
-header .nav-2 .div-1{
-    width: 10%;
+.nav-tab-img{
+    width: 100%;
 }
-header .nav-2 .div-1 img{
-    width: 60%;
+li a{
+    width: 100%;
+    color: #ffffffa5 !important;
+    background: none !important;
+    border: none !important;
+    height: 7vh;
 }
-header .nav-2 .div-2{
-    width: 90%;
+li a:focus-within{
+    border-bottom: 2px solid green !important;
+}
+ul{
+    border: none !important;
 }
 a{
     text-decoration: none;
-}
-header .nav-2 .div-2 ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-}
-.line{
-    border: 2px solid green;
-    margin-left: 490px;
-    margin-right: 40px;
 }
 .section-3{
     background-color: #0b141a;

@@ -32,53 +32,31 @@ header img{
     width: 20%;
 }
 .nav-item-img{
-    width: 13%;
+    width: 8%;
 }
-.nav-item{
+#navBar{
     display: flex;
-    justify-content: center;
-    width: 29%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
 }
 .nav-tab-img{
-    width: 150%;
+    width: 100%;
 }
-button{
+li a{
     width: 100%;
     color: #ffffffa5 !important;
     background: none !important;
     border: none !important;
+    height: 7vh;
 }
-button:focus-within{
+li a:focus-within{
     border-bottom: 2px solid green !important;
 }
 ul{
     border: none !important;
 }
-/* header .nav-2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
-}
-header .nav-2 .div-1{
-    width: 10%;
-}
-header .nav-2 .div-1 img{
-    width: 60%;
-}
-header .nav-2 .div-2{
-    width: 90%;
-}
-header .nav-2 .div-2 ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-}
-.line{
-    border: 2px solid green;
-    margin-left: 100px;
-    margin-right: 430px;
-} */
 a{
     text-decoration: none;
 }
